@@ -1,0 +1,17 @@
+{
+  "name": "fe-lifecycle",
+  "version": "1.0.0",
+  "private": true,
+  "license": "ISC",
+  "packageManager": "pnpm@11.12.0",
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "test": "lerna run test"
+
+  },
+  "devDependencies": {
+    "lerna": "^9.0.7"
+  }
+}
