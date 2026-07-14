@@ -9,9 +9,15 @@
     "build": "lerna run build",
     "lint": "lerna run lint",
     "test": "lerna run test"
-
   },
   "devDependencies": {
-    "lerna": "^9.0.7"
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "lerna": "^9.0.7",
+    "ts-jest": "^29.4.11"
   }
 }

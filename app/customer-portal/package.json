@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "test": "jest",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,7 +15,8 @@
     "react-dom": "^19.2.7",
     "@repo/ui": "workspace:*",
     "@repo/eslint-config": "workspace:*",
-    "@repo/utils": "workspace:*"
+    "@repo/utils": "workspace:*",
+    "@repo/jest-config": "workspace:*"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
