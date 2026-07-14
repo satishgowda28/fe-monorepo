@@ -1,4 +1,5 @@
 import { Button } from "@repo/ui";
+import { formatCurrency } from "@repo/utils";
 import { useState } from "react";
 import "./App.css";
 import heroImg from "./assets/hero.png";
@@ -20,7 +21,7 @@ function App() {
           <h1>Get started</h1>
           <Button
             onClick={() => {
-              alert("Hello World");
+              alert(formatCurrency(123456));
             }}
           ></Button>
           <p>
