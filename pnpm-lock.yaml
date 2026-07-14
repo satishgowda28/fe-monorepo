@@ -14,6 +14,9 @@ importers:
 
   app/customer-portal:
     dependencies:
+      '@repo/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -60,6 +63,8 @@ importers:
       vite:
         specifier: ^8.1.1
         version: 8.1.4(@types/node@24.13.3)(yaml@2.9.0)
+
+  packages/eslint-config: {}
 
   packages/ts-config: {}
 
