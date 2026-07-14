@@ -1,5 +1,5 @@
 packages:
   - "app/*"
   - "packages/*"
-allowBuilds:
-  nx: false
+# allowBuilds:
+#   nx: false

@@ -1,0 +1,6 @@
+{
+  "extends": "../ts-config/react-lib.json",
+  "include": [
+      "src"
+  ]
+}
