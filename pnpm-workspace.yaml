@@ -1,4 +1,7 @@
 packages:
   - "app/*"
   - "packages/*"
+allowBuilds:
+  nx: true
+  unrs-resolver: true
   
