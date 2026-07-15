@@ -2,7 +2,6 @@ packages:
   - "app/*"
   - "packages/*"
 allowBuilds:
-  unrs-resolver: false
-
-# allowBuilds:
-#   nx: false
+  nx: true
+  unrs-resolver: true
+  
