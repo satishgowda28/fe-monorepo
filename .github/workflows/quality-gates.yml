@@ -103,6 +103,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: customer-portal
-          path: apps/customer-portal/dist
+          path: app/customer-portal/dist
           if-no-files-found: error
           retention-days: 1

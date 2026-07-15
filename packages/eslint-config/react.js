@@ -12,6 +12,7 @@ export const reactConfig = [
       "*.config.js",
       "*.config.cjs",
       "*.config.mjs",
+      "**/__mocks__/**",
     ],
   },
 
