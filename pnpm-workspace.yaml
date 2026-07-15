@@ -3,6 +3,7 @@ packages:
   - "packages/*"
 allowBuilds:
   unrs-resolver: false
-
+onlyBuiltDependencies:
+  - nx
 # allowBuilds:
 #   nx: false
