@@ -1,10 +1,4 @@
 packages:
   - "app/*"
   - "packages/*"
-onlyBuiltDependencies:
-  - nx
-  - unrs-resolver
-# allowBuilds:
-#   : false
-#   nx: false
   
